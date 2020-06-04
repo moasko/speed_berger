@@ -1,0 +1,197 @@
+                @media screen and (max-width:700px) {
+                    /******************************navBar*******************/
+                     ::-webkit-scrollbar {
+                        width: 0px;
+                        background-color: #FFD154;
+                    }
+                    .menu {
+                        position: fixed;
+                        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+                        transform: translateX(100%);
+                        right: 0;
+                        z-index: 200;
+                        position: fixed;
+                        width: 60%;
+                        height: calc(100vh - 65px);
+                        bottom: 0;
+                        background-color: rgb(0, 0, 0);
+                    }
+                    nav {
+                        position: fixed;
+                    }
+                    .social {
+                        width: 100%;
+                    }
+                    .brger {
+                        position: relative;
+                        box-sizing: border-box;
+                        height: 40px;
+                        width: 40px;
+                    }
+                    header {
+                        overflow: hidden;
+                    }
+                    .back {
+                        top: -55px;
+                        width: 185%;
+                        left: -128px;
+                    }
+                    .brger {
+                        display: block;
+                    }
+                    .bric {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .b1 {
+                        width: 50%;
+                    }
+                    .b3 {
+                        width: 75%;
+                    }
+                    .menu>ul>li {
+                        margin-top: 50px;
+                        width: 100%;
+                        display: block;
+                        text-align: center;
+                    }
+                    .bri {
+                        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+                        width: 100%;
+                        border-radius: 15px;
+                        height: 6px;
+                        margin-top: 6px;
+                        background-color: black;
+                    }
+                    li.social {
+                        background-color: #fdcb45;
+                        justify-content: space-around;
+                        display: flex;
+                    }
+                    li.social>a {
+                        margin-left: 50px;
+                    }
+                    .brger input {
+                        margin: 0;
+                        padding: 0;
+                        position: absolute;
+                        border: none;
+                        box-sizing: border-box;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .view {
+                        transform: translateX(0%) !important;
+                    }
+                    .bb1 {
+                        width: 100%;
+                        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+                        background: #36383F;
+                        transform: rotate(-45deg) translate(0, 5px);
+                    }
+                    .bb2 {
+                        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+                        opacity: 1;
+                        transform: rotate(45deg) translate(-4px, -7px);
+                    }
+                    .bb3 {
+                        opacity: 0;
+                        transform: rotate(0deg) scale(0.2, 0.2);
+                    }
+                    /*******************************************************/
+                    .flates {
+                        flex-wrap: wrap;
+                    }
+                    .mapin>img {
+                        width: 100%;
+                    }
+                    .fltes_box,
+                    .mapin {
+                        display: block;
+                    }
+                    .positionI {
+                        width: 100%;
+                    }
+                    #df>img {
+                        width: 100%;
+                    }
+                    .menuconter {
+                        width: 90%;
+                    }
+                    .card {
+                        width: 100%;
+                    }
+                    #livraison>img {
+                        display: none;
+                    }
+                    #livraison {
+                        height: auto;
+                    }
+                    .livre_text {
+                        text-align: center;
+                        position: unset;
+                        width: 100%;
+                    }
+                    .fltes_box {
+                        width: 100%;
+                    }
+                    .livre_text>h1 {
+                        font-size: 36px;
+                    }
+                    .section_title>h2 {
+                        font-size: 35px;
+                    }
+                    .ge {
+                        display: none !important;
+                    }
+                    .happiText {
+                        text-align: center;
+                        font-size: 35px;
+                    }
+                    .innerc {
+                        height: auto;
+                        width: 100%;
+                        flex-direction: column;
+                    }
+                    #jaune {
+                        height: auto;
+                    }
+                    .innerCardes {
+                        margin-bottom: 20px;
+                        width: 100%;
+                    }
+                    .prix {
+                        font-size: 16px;
+                    }
+                    .conterr {
+                        flex-direction: column;
+                        height: auto;
+                    }
+                    .spoil {
+                        margin-top: 150px;
+                        width: 100%;
+                    }
+                    .prixbtn {
+                        width: 40px;
+                        height: 40px;
+                    }
+                    span.r {
+                        display: none;
+                    }
+                    .modal {
+                        flex-direction: column;
+                        overflow: scroll;
+                    }
+                    .modalImg {
+                        height: auto;
+                        width: 100%;
+                    }
+                    .modal_desk {
+                        height: 100%;
+                        width: 100%;
+                    }
+                    .modalClose {
+                        background-color: #0014c771;
+                    }
+                }
