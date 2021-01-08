@@ -1,1 +1,21 @@
 
+{
+   "menu":[
+      {
+         "id":"",
+         "name":"",
+         "image":"",
+         "price":"",
+         "description":"",
+         "stars":""
+      },
+      {
+         "id":"",
+         "name":"",
+         "image":"",
+         "price":"",
+         "description":"",
+         "stars":""
+      }
+   ]
+}
